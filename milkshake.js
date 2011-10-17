@@ -63,7 +63,7 @@ var milk = (function(){
 		    animationLoop();
 		    setInterval(function() {
 			    shaker.selectNext(true);
-			}, 10000);		
+			}, 20000);		
 		});
 	} catch (e) {
 	    canvas.outerHTML = "<div id='" + elementId + "' style='padding:20px;'>" + canvas.innerHTML + "</div>";

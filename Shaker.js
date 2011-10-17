@@ -191,7 +191,7 @@ var Shaker = Class.extend({
 	    if (this.infoBoxPos == -1 && Object.keys(this.infoMessages).length > 0) {
 		this.infoBoxPos = 0;
 		document.body.appendChild(this.infoBox);
-		this.infoMessages["ShamelessPlug"] = "fork me on <a href='http://github.com/gattis/milkshake'>github</a>!";
+		this.infoMessages["ShamelessPlug"] = "Forked from Matt Gattis' <a href='http://github.com/gattis/milkshake'>Milkshake</a>!";
 		this.infoMessages["ChooseTracks"] = "<a href='bookmarklet.html'>Choose Audio Tracks</a>";
 	    }
 	    if (this.infoBoxPos > -1) {
